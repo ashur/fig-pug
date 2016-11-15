@@ -1,0 +1,7 @@
+# standard
+---
+
+- name: ~/.pug
+  file:
+      replace: ~/.pug
+      source: .pug
