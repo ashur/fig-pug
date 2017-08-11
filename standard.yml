@@ -3,5 +3,6 @@
 
 - name: ~/.pug
   file:
-      replace: ~/.pug
+      action: replace
+      path: ~/.pug
       source: .pug
